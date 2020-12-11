@@ -1,6 +1,11 @@
 /**콜아웃이랑 관련된 분 콜아웃+태그로 새 태그 만들기 가능**/
 .callout-info {color:aqua;}
 
+html, body, button{
+	font-family:Arial, "돋움", Dotum, "굴림", Gulim, "Apple SD Gothic Neo", AppleGothic, sans-serif;
+}
+
+button{border:0;margin:0;padding:0;}
 
 .title{margin-top:50px;text-align:center;}
 
