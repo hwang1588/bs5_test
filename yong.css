@@ -97,3 +97,8 @@ button {
 	z-index: 9999;
 	cursor: pointer;
 }
+
+.yong{
+	text-align: center;
+	border: 1px solid #ff2;
+	background-color: antiquewhite;}
