@@ -18,9 +18,9 @@
   margin-left: auto;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 276px) {
   .container-sm, .container {
-    max-width: 540px;
+    max-width: 240px;
   }
 }
 @media (min-width: 768px) {
