@@ -1,104 +1,119 @@
 /**콜아웃이랑 관련된 분 콜아웃+태그로 새 태그 만들기 가능**/
 .callout-info {
-	color: aqua;
+  color: aqua;
 }
 
 .callout-yong {
-	border: 1px solid red;
-	background-color: #999999;
+  border: 1px solid red;
+  background-color: #999999;
 }
 
 html,
 body,
 button {
-	font-family: Arial, "돋움", Dotum, "굴림", Gulim, "Apple SD Gothic Neo", AppleGothic, sans-serif;
+  font-family: Arial, "돋움", Dotum, "굴림", Gulim, "Apple SD Gothic Neo", AppleGothic, sans-serif;
 }
 
 button {
-	border: 0;
-	margin: 0;
-	padding: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .title {
-	margin-top: 50px;
-	text-align: center;
+  margin-top: 50px;
+  text-align: center;
 }
 
 .box-roulette {
-	position: relative;
-	margin: 50px auto;
-	width: 500px;
-	height: 500px;
-	border: 10px solid #ccc;
-	border-radius: 50%;
-	background: #ccc;
-	overflow: hidden;
+  position: relative;
+  margin: 50px auto;
+  width: 500px;
+  height: 500px;
+  border: 10px solid #ccc;
+  border-radius: 50%;
+  background: #ccc;
+  overflow: hidden;
 }
 
 .box-roulette .markers {
-	position: absolute;
-	left: 50%;
-	top: 0;
-	margin-left: -25px;
-	width: 0;
-	height: 0;
-	border: 25px solid #fff;
-	border-left-color: transparent;
-	border-right-color: transparent;
-	border-bottom-color: transparent;
-	z-index: 9999;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  margin-left: -25px;
+  width: 0;
+  height: 0;
+  border: 25px solid #fff;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  z-index: 9999;
 }
 
 .box-roulette .roulette {
-	position: relative;
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 
 .box-roulette .item {
-	position: absolute;
-	top: 0;
-	width: 0;
-	height: 0;
-	border: 0 solid transparent;
-	transform-origin: 0 100%;
+  position: absolute;
+  top: 0;
+  width: 0;
+  height: 0;
+  border: 0 solid transparent;
+  transform-origin: 0 100%;
 }
 
 .box-roulette .label {
-	position: absolute;
-	left: 0;
-	top: 0;
-	color: #fff;
-	white-space: nowrap;
-	transform-origin: 0 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #fff;
+  white-space: nowrap;
+  transform-origin: 0 0;
 }
 
 .box-roulette .label .text {
-	display: inline-block;
-	font-size: 20px;
-	font-weight: bold;
-	line-height: 1;
-	vertical-align: middle;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1;
+  vertical-align: middle;
 }
 
 #btn-start {
-	display: block;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	margin: -50px 0 0 -50px;
-	width: 100px;
-	height: 100px;
-	font-weight: bold;
-	background: #fff;
-	border-radius: 50px;
-	z-index: 9999;
-	cursor: pointer;
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -50px 0 0 -50px;
+  width: 100px;
+  height: 100px;
+  font-weight: bold;
+  background: #fff;
+  border-radius: 50px;
+  z-index: 9999;
+  cursor: pointer;
 }
 
-.yong{
-	text-align: center;
-	border: 1px solid #ff2;
-	background-color: antiquewhite;}
+.yong {
+  text-align: center;
+  border: 1px solid #777777;
+  background-color: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.text {
+  margin-top: 20px;
+  border: none;
+  background-color: antiquewhite;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.full {
+  width: 100%;
+}
