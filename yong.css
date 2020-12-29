@@ -147,9 +147,10 @@ button {
 }
 
 .nonefont {
+    letter-spacing: 0.02rem;
     text-decoration-line: none;
     color: #ffffff;
-    font-size: 12px;
+    font-size: 0.8rem;
 }
 
 .floatleft {
@@ -182,9 +183,15 @@ button {
 .som_2{
     /*border: 1px solid #999999;sS*/
     font-size: 12px;
-    background-color: #333333;
+    background-color: #848484;
     padding: 10px 0px 10px 0px;
-    margin-top: 20px;
+    margin-top: 10px;
     font-weight: bold;
     border-radius: 5px
 }
+
+.pt5{padding-top:5px;}
+
+.mt5{margin-top:5px;}
+
+.mt10{margin-top:5px;}
