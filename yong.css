@@ -129,7 +129,7 @@ text-decoration-line: none;}
 
 .navimg{ width: 10%}
 
-.navimg_2{width: 2%;}
+.navimg_2{width: 4%;}
 
 .navimg_10{width: 10%;}
 
@@ -142,6 +142,9 @@ font-size: 12px;}
 
 .floatleft{float:left;}
 
-.floatright{float:right;}
+.fr{float:right;}
 
 .pl200{padding-left: 200px;}
+
+.bg_gray{background-color: #d6d6d9;
+}
