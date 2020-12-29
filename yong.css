@@ -119,9 +119,29 @@ button {
 }
 
 .yongyong {
-  background-color: brown;
+  background-color: #333333;
     padding: 1rem;
 }
 
-.wheretogo{color: white;}
+.wheretogo{color: white;
 
+text-decoration-line: none;}
+
+.navimg{ width: 10%}
+
+.navimg_2{width: 2%;}
+
+.navimg_10{width: 10%;}
+
+
+.pr5{ padding-right: 5rem;}
+
+.nonefont{text-decoration-line: none;
+color:#ffffff;
+font-size: 12px;}
+
+.floatleft{float:left;}
+
+.floatright{float:right;}
+
+.pl200{padding-left: 200px;}
