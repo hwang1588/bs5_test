@@ -401,7 +401,7 @@ body {
 .aside {
     float: left;
     width: 230px;
-    height: 100%;
+    height: auto;
     background-color: #858585;
 }
 
