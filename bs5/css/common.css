@@ -400,7 +400,7 @@ body {
 /*aside*/
 .aside {
     float: left;
-    width: 225px;
+    width: 230px;
     height: auto;
     background-color: #858585;
 }
@@ -905,6 +905,17 @@ input {
     padding: 1rem;
     background-color: #333;}
 
+
+.car_logo{
+    position: relative;
+    background: url(/images/happycar_logo@2x.png);
+    text-indent: -9999px;
+    width: 180px;
+    height: 51px;
+    padding-right: 180px;
+}
+
+/*
 .car_logo{
     position: relative;
     background: url(/images/happycar_logo.png);
@@ -912,7 +923,7 @@ input {
     width: 90px;
     height: 26px;
     padding-right: 90px;
-}
+}*/
 
 .navbar-dark .navbar-nav .nav-link{color: #ffcc33}
 
