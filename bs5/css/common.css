@@ -854,3 +854,46 @@ input {
     padding: 0 0 0 8px;
     margin-top: 4px;
 }
+
+.tab-list{
+    position: relative;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px 5px 0 0;
+    background-color: #fff;
+    background-position-x: 103px;
+    text-align: left;
+    padding: 0 0 0 16px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    padding: 10px 20px;
+}
+
+.tab-list .tab {
+    position: relative;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px 5px 0 0;
+    background-color: #babbc2;
+    background-position-x: 103px;
+    text-align: left;
+    padding: 0 0 0 16px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+}
+
+
+
+.tab-list .tab > span {
+    position: absolute;
+    display: inline-block;
+    text-indent: -9999px;
+    width: 16px;
+    height: 40px;
+    background: url(/images/ico_16_tab_delete_n.svg) no-repeat right center;
+    left: 100px;
+    top: 1px;
+}
+
