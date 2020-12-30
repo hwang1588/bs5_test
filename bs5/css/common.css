@@ -884,12 +884,20 @@ input {
 
 
 
-.logo{
+ .logo{
     position: relative;
-    margin-top: 26px;
     background: url(/images/happycar_logo.png);
     text-indent: -9999px;
     width: 90px;
     height: 26px;
-    float: right;
+    float:left;
+    margin-left: 20px;
 }
+
+.menu_button{
+    width: 80px;
+    height: 80px;
+    text-indent: -9999px;
+    background: url(../image/ico_20_all_menu_n.svg) no-repeat center center;
+}
+
