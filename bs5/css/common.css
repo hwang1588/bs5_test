@@ -953,21 +953,28 @@ input {
 
 .wow_r1{
     background:url(/images/ico_notification_n.svg) no-repeat left center;
-    width: 80px;
+    width: 0px;
     height: 21px;
-    padding-left: 26px;
+    padding-left: 22px;
 }
 
 .wow_r2{
-    background:url(/images/ico_notification_n.svg) no-repeat left center;
-    width: 80px;
+    background:url(/images/ico_24_modify_n.svg) no-repeat left center;
+    width: 0px;
     height: 21px;
-    padding-left: 26px;
+    padding-left: 22px;
 }
 
 .wow_r3{
-    background:url(/images/ico_notification_n.svg) no-repeat left center;
-    width: 80px;
+    background:url(/images/ico_24_logout_n.svg) no-repeat left center;
+    width: 0px;
     height: 21px;
-    padding-left: 26px;
+    padding-left: 22px;
+}
+
+.wow_togler{
+    background: url(/images/ico_20_all_menu_n.svg) no-repeat center center;
+    width: 0px;
+    height:21px;
+    padding-left: 22px;
 }
