@@ -870,21 +870,6 @@ input {
     padding: 10px 20px;
 }
 
-.tab-list .tab {
-    position: relative;
-    width: 130px;
-    height: 40px;
-    border-radius: 5px 5px 0 0;
-    background-color: #babbc2;
-    background-position-x: 103px;
-    text-align: left;
-    padding: 0 0 0 16px;
-    font-size: 14px;
-    font-weight: 400;
-    color: #333333;
-}
-
-
 
 .tab-list .tab > span {
     position: absolute;
@@ -897,3 +882,14 @@ input {
     top: 1px;
 }
 
+
+
+.logo{
+    position: relative;
+    margin-top: 26px;
+    background: url(/images/happycar_logo.png);
+    text-indent: -9999px;
+    width: 90px;
+    height: 26px;
+    float: right;
+}
