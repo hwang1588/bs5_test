@@ -543,7 +543,7 @@ body {
     line-height: 48px;
     font-size: 14px;
     font-weight: 200;
-    padding: 0 0 0 16px;
+    padding: 0 16px;
 }
 
 .aside > ul ul > li a.active {
