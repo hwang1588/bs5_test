@@ -175,7 +175,8 @@ button {
     font-size: 12px;
     background-color: #999999;
     padding: 10px 0px 10px 0px;
-    margin-top: 20px;
+/*row열 날리면서 삭제*/
+    /*margin-top: 20px;*/
     font-weight: bold;
     border-radius: 5px
 }
