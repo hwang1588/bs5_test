@@ -289,9 +289,9 @@ button {
     margin-top: 10px;
 }
 
-.row .col-12 > .top  {
+.row .col-12  .top  {
     margin: 0px 0 0 0px;
-    width: 94px;
+    width: 100px;
     font-size: 24px;
     color: #333333;
     font-weight: 600;
