@@ -407,7 +407,7 @@ body {
 
 .aside .button_tab {
     position: relative;
-    margin: 19px 0 36px 0;
+    margin: 19px 0 29px 0;
 }
 
 .aside .button_tab button {
@@ -857,18 +857,15 @@ input {
 
 .tab-list{
     position: relative;
-    width: 130px;
+    width: 90px;
     height: 40px;
     border-radius: 5px 5px 0 0;
     background-color: #fff;
-    background-position-x: 103px;
     text-align: left;
-    padding: 0 0 0 16px;
     font-size: 14px;
     font-weight: bold;
     color: #333333;
     padding: 10px 20px;
-    margin-left: 50px;
 }
 
 
@@ -883,7 +880,16 @@ input {
     top: 1px;
 }
 
-
+.row .tab-list .tab > span {
+    position: absolute;
+    display: inline-block;
+    text-indent: -9999px;
+    width: 16px;
+    height: 40px;
+    background: url(/images/ico_16_tab_delete_n.svg) no-repeat right center;
+    left: 65px;
+    top: 1px;
+}
 
  .logo{
     position: fixed;
