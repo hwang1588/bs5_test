@@ -175,13 +175,13 @@ button {
     font-size: 12px;
     background-color: #999999;
     padding: 10px 0px 10px 0px;
-/*row열 날리면서 삭제*/
+    /*row열 날리면서 삭제*/
     /*margin-top: 20px;*/
     font-weight: bold;
     border-radius: 5px
 }
 
-.som_2{
+.som_2 {
     /*border: 1px solid #999999;sS*/
     font-size: 12px;
     background-color: #848484;
@@ -191,21 +191,30 @@ button {
     border-radius: 5px
 }
 
-.pt5{padding-top:5px;}
+.pt5 {
+    padding-top: 5px;
+}
 
-.mt5{margin-top:5px;}
+.mt5 {
+    margin-top: 5px;
+}
 
-.mt10{margin-top:5px;}
+.mt10 {
+    margin-top: 5px;
+}
 
-.img-circle{border-radius: 50%;}
+.img-circle {
+    border-radius: 50%;
+}
 
-.yong_sample{padding: 20px;
+.yong_sample {
+    padding: 20px;
     background-color: #ffffff;
     width: 100%;
     height: 2000px;
 }
 
-.path > span{
+.path > span {
     display: inline-block;
     width: 16px;
     height: 16px;
@@ -285,11 +294,11 @@ button {
 
 .top {
     font-size: 20px;
-    font-weight:bold;
+    font-weight: bold;
     margin-top: 10px;
 }
 
-.row .col-12  .top  {
+.row .col-12 .top {
     margin: 0px 0 0 0px;
     width: 100px;
     font-size: 24px;

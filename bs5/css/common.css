@@ -465,9 +465,9 @@ body {
     width: 24px;
     height: 56px;
     margin: 0 8px 0 0;
-}s
+}
 
-.aside > ul > li:nth-of-type(1) > a > span {
+s .aside > ul > li:nth-of-type(1) > a > span {
     background: url(/images/ico_24_menu_dashboard_n.svg) no-repeat left center;
 }
 
@@ -855,7 +855,7 @@ input {
     margin-top: 4px;
 }
 
-.tab-list{
+.tab-list {
     position: relative;
     width: 90px;
     height: 40px;
@@ -891,29 +891,30 @@ input {
     top: 1px;
 }
 
- .logo{
+.logo {
     position: fixed;
     background: url(/images/happycar_logo.png);
     text-indent: -9999px;
     width: 90px;
     height: 26px;
-    float:left;
+    float: left;
     margin-left: 45px;
 }
 
-.menu_button{
+.menu_button {
     width: 80px;
     height: 80px;
     text-indent: -9999px;
     background: url(../image/ico_20_all_menu_n.svg) no-repeat center center;
 }
 
-.bd-navbar{
+.bd-navbar {
     padding: 1rem;
-    background-color: #333;}
+    background-color: #333;
+}
 
 
-.car_logo{
+.car_logo {
     position: relative;
     background: url(/images/happycar_logo@2x.png);
     text-indent: -9999px;
@@ -932,67 +933,69 @@ input {
     padding-right: 90px;
 }*/
 
-.navbar-dark .navbar-nav .nav-link{color: #ffcc33}
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffcc33
+}
 
-.wow1{
-    background:url(/images/ico_24_quickmenu_carcontrol_n.svg) no-repeat left center;
+.wow1 {
+    background: url(/images/ico_24_quickmenu_carcontrol_n.svg) no-repeat left center;
     width: 80px;
     height: 21px;
     padding-left: 26px;
 }
 
-.wow2{
-    background:url(/images/ico_24_quickmenu_controlview_n.svg) no-repeat left center
-;    width: 80px;
-    height: 21px;
-    padding-left: 26px;
-}
-
-.wow3{
-    background:url(/images/ico_24_quickmenu_status_n.png) no-repeat left center;
+.wow2 {
+    background: url(/images/ico_24_quickmenu_controlview_n.svg) no-repeat left center;
     width: 80px;
     height: 21px;
     padding-left: 26px;
 }
 
-.wow4{
-    background:url(/images/ico_24_quickmenu_charge_n.svg) no-repeat left center;
+.wow3 {
+    background: url(/images/ico_24_quickmenu_status_n.png) no-repeat left center;
     width: 80px;
     height: 21px;
     padding-left: 26px;
 }
 
-.wow5{
-    background:url(/images/ico_24_quickmenu_reserve_n.svg) no-repeat left center;
+.wow4 {
+    background: url(/images/ico_24_quickmenu_charge_n.svg) no-repeat left center;
     width: 80px;
     height: 21px;
     padding-left: 26px;
 }
 
-.wow_r1{
-    background:url(/images/ico_notification_n.svg) no-repeat left center;
+.wow5 {
+    background: url(/images/ico_24_quickmenu_reserve_n.svg) no-repeat left center;
+    width: 80px;
+    height: 21px;
+    padding-left: 26px;
+}
+
+.wow_r1 {
+    background: url(/images/ico_notification_n.svg) no-repeat left center;
     width: 0px;
     height: 21px;
     padding-left: 22px;
 }
 
-.wow_r2{
-    background:url(/images/ico_24_modify_n.svg) no-repeat left center;
+.wow_r2 {
+    background: url(/images/ico_24_modify_n.svg) no-repeat left center;
     width: 0px;
     height: 21px;
     padding-left: 22px;
 }
 
-.wow_r3{
-    background:url(/images/ico_24_logout_n.svg) no-repeat left center;
+.wow_r3 {
+    background: url(/images/ico_24_logout_n.svg) no-repeat left center;
     width: 0px;
     height: 21px;
     padding-left: 22px;
 }
 
-.wow_togler{
+.wow_togler {
     background: url(/images/ico_20_all_menu_n.svg) no-repeat center center;
     width: 0px;
-    height:21px;
+    height: 21px;
     padding-left: 22px;
 }
