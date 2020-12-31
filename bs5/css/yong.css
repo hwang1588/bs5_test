@@ -297,3 +297,45 @@ button {
     font-weight: 600;
     background: url(/images/ico_24_title_n.svg) no-repeat right center;
 }
+
+/*아티클_탑_article_bottom*/
+
+
+.article_bottom {
+    position: absolute;
+    top: 490px;
+    width: 1590px;
+    height: 602px;
+    background-color: #f6f7fb;
+    margin: 0 0 0 0px;
+    padding: 28px 24px 0 24px;
+}
+
+.article_bottom .tit {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article_bottom .tit-left > span {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    border: 1px solid #333333;
+    text-indent: -9999px;
+    background: url(/images/ico_24_filter_n.svg) no-repeat center center;
+}
+
+.article_bottom .tit-left > h6 {
+    position: relative;
+    top: 6px;
+    left: 7px;
+    display: inline-block;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+.article_bottom .tit-right .combo-button.last {
+    margin-right: 0;
+}
