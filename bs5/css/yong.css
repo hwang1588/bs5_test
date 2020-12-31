@@ -212,5 +212,88 @@ button {
     background: url(/images/ico_16_arrow_right_n.svg) no-repeat center center;
     text-indent: -9999px;
     margin-top: 1px;
+}
 
+/*아티클_탑_article_top*/
+
+.article_top {
+    position: absolute;
+    margin: 18px 0 0 0px;
+    width: 1590px;
+    height: 203px;
+    background-color: #f6f7fb;
+}
+
+.article_top .article_box {
+    padding: 20px 24px;
+    display: flex;
+}
+
+.article_top-button > h5 {
+    font-size: 13px;
+    color: #898989;
+    font-weight: 300;
+    margin: 0 0 4px 0;
+}
+
+.article_top-button.calen > .combo-button {
+    width: 200px;
+    margin-right: 0;
+}
+
+.article_top-button.name > .combo-button {
+    width: 70px;
+}
+
+.article_top-button.name > input {
+    position: relative;
+    right: 12px;
+    width: 180px;
+    height: 34px;
+    border: 1px solid #d8d8d8;
+    padding: 0 0 0 12px;
+}
+
+.article_top-button.name > input::placeholder {
+    color: #bfbfbf;
+}
+
+.article_top-button.search > h5 {
+    text-indent: -9999px;
+}
+
+.article_top-button.search > .combo-button {
+    width: 166px;
+    padding: 0;
+    text-align: center;
+    background-color: #333333;
+    border: 1px solid #333333;
+    color: #ffcc33;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.article_top-button .date {
+    width: 34px;
+    height: 34px;
+    text-indent: -9999px;
+    margin-right: 12px;
+    background: url(../image/ico_20_calendar_n.svg) no-repeat center center;
+    background-color: #fff;
+    border: 1px solid #969696;
+}
+
+.top {
+    font-size: 20px;
+    font-weight:bold;
+    margin-top: 10px;
+}
+
+.row .col-12 > .top  {
+    margin: 0px 0 0 0px;
+    width: 94px;
+    font-size: 24px;
+    color: #333333;
+    font-weight: 600;
+    background: url(/images/ico_24_title_n.svg) no-repeat right center;
 }
