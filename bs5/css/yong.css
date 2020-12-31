@@ -278,7 +278,7 @@ button {
     height: 34px;
     text-indent: -9999px;
     margin-right: 12px;
-    background: url(../image/ico_20_calendar_n.svg) no-repeat center center;
+    background: url(/images/ico_20_calendar_n.svg) no-repeat center center;
     background-color: #fff;
     border: 1px solid #969696;
 }
