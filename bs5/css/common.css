@@ -738,7 +738,7 @@ s .aside > ul > li:nth-of-type(1) > a > span {
 /* table */
 .table-wrap {
     margin-top: 24px;
-    overflow-x: scroll;
+    overflow: scroll !important;
 }
 
 .table {
