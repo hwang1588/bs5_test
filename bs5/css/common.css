@@ -1009,3 +1009,15 @@ input {
     color: white;
     font-size:15px
 }
+
+.aside_sub_icon{
+    padding-right:5px;
+     filter: invert(15%) sepia(0%) saturate(2914%) hue-rotate(355deg) brightness(505%) contrast(192%);
+
+}
+
+.aside_sub_icon_active{
+    padding-right:5px;
+     filter: invert(15%) sepia(60%) saturate(2914%) hue-rotate(355deg) brightness(505%) contrast(192%)
+
+}

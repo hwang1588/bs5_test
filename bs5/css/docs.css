@@ -443,11 +443,8 @@
     grid-area: sidebar
 }
 
-.collapse .show {font-size:15px;
-}
-
 .bd-main {
-    grid-area: main
+    grid-area: main;
 }
 
 @media (min-width: 768px) {
