@@ -393,10 +393,15 @@ button {
 }
 
 /*테이블코드*/
+
+.overflow{overflow: scroll;
+min-width: 300px}
+
 .tg {
     border-collapse: collapse;
     border-spacing: 0;
-    overflow:scroll;
+    min-width: 500px !important;
+    overflow: scroll !important;
 }
 
 .tg td {
@@ -424,18 +429,17 @@ button {
 
 .tg .tg-f8tv {
     border-color: inherit;
-    font-style: italic;
-    text-align: left;
-    vertical-align: top
+    text-align: center;
+    vertical-align: middle
 }
 
 .tg .tg-0pky {
     border-color: inherit;
-    text-align: left;
+    text-align: center;
     vertical-align: top
 }
 
 .tg .tg-0lax {
-    text-align: left;
+    text-align: center;
     vertical-align: top
 }
