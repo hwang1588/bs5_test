@@ -211,7 +211,7 @@ button {
     padding: 20px;
     background-color: #ffffff;
     width: 100%;
-    height: auto;
+    height: 500PX;
 }
 
 .path > span {

@@ -348,7 +348,7 @@
 @media (max-width: 767.98px) {
     .bd-links > ul {
         padding: 1.5rem .75rem;
-        background-color: #f8f9fa;
+        background-color: #858585;
         border-bottom: 1px solid #e9ecef
     }
 }
@@ -404,7 +404,8 @@
 }
 
 .bd-links .btn[aria-expanded="true"]::before {
-    transform: rotate(90deg)
+    transform: rotate(90deg);
+    filter: invert(15%) sepia(60%) saturate(2914%) hue-rotate(355deg) brightness(505%) contrast(192%)
 }
 
 .bd-links .active {

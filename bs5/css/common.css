@@ -1000,6 +1000,8 @@ input {
     padding-left: 32px;
 }
 
-.aside_icon {
-    padding-left: 60px;
+.aside_icon {padding-right: 5px;
+
 }
+
+.aside_icon .aside_text{color: white !important;}
