@@ -405,13 +405,15 @@
 
 .bd-links .btn[aria-expanded="true"]::before {
     transform: rotate(90deg);
-    filter: invert(15%) sepia(60%) saturate(2914%) hue-rotate(355deg) brightness(505%) contrast(192%)
+        filter: invert(15%) sepia(60%) saturate(2914%) hue-rotate(355deg) brightness(505%) contrast(192%);
 }
 
 .bd-links .active {
     font-weight: 600;
     color: rgba(0, 0, 0, 0.85)
 }
+
+
 
 @media (min-width: 768px) {
     .bd-layout {
@@ -428,8 +430,20 @@
     }
 }
 
+@media (min-width: 1679px) {
+    .bd-layout {
+        display: grid;
+        /*gap: 1.5rem;*/
+        grid-template-areas: "sidebar main";
+        grid-template-columns: 1fr 8fr
+    }
+}
+
 .bd-sidebar {
     grid-area: sidebar
+}
+
+.collapse .show {font-size:15px;
 }
 
 .bd-main {
