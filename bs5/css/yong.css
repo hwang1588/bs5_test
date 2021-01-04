@@ -389,4 +389,5 @@ button {
 .button_tab button:nth-of-type(2) {
     position: absolute;
     border-radius: 0 6px 6px 0;
+    font-weight:bold;
 }
