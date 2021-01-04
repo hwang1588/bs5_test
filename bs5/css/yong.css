@@ -362,3 +362,31 @@ button {
 
     color: #fcba03 !important;
 }
+
+.button_tab {
+    position: relative;
+    margin: 20px 0 20px 0;
+}
+
+.button_tab button {
+    width: 90px;
+    height: 34px;
+    background-color: #9c9d9d;
+    color: #fff;
+    font-weight: 300;
+}
+
+.button_tab button.active {
+    background-color: #ffcc33;
+    color: #000;
+    font-weight: bold;
+}
+
+.button_tab button:nth-of-type(1) {
+    border-radius: 6px 0 0 6px;
+}
+
+.button_tab button:nth-of-type(2) {
+    position: absolute;
+    border-radius: 0 6px 6px 0;
+}
