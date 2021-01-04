@@ -999,3 +999,7 @@ input {
     height: 21px;
     padding-left: 32px;
 }
+
+.aside_icon {
+    padding-left: 60px;
+}
